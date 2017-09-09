@@ -6,7 +6,7 @@ var purple = [280, 50, 60];
 
 var myName = "BERGER";
 var letterColors = [red, orange, green, blue, purple]
-bubbleShape = "square";
+// bubbleShape = "square";
 
 drawName(myName, letterColors);
 bounceBubbles();
