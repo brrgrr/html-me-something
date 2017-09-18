@@ -1,0 +1,45 @@
+body {
+    font-family: Courier New, Courier, monospace;
+    background-color: #F0DC82;
+}
+#profile-pic {
+    width:25%;
+    border-radius: 50%;
+}
+main {margin:auto;
+width:67%;
+}
+main section {
+    padding: 1em;
+    margin:1em;
+    box-shadow: 1px 1px 3px;
+    background-color: #efefef;
+    border:1px inset;
+}
+main section img {
+    height: auto;
+    max-width:100%;
+    margin: 1em auto;
+    display: block;
+    border:1px solid darkred;
+    border-radius:1em;
+}
+header, footer {
+        text-align: center;
+        color:navy;
+        font-family: cursive;
+    }
+
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
